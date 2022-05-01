@@ -1,0 +1,67 @@
+
+*{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: myFont;
+    src: url(https://fonts.google.com/specimen/Nunito);
+}
+ul
+{
+    list-style-type: none ;
+    margin: 0;
+    overflow: hidden;
+    color: black;
+    padding: 10px;
+}
+nav li 
+{
+    display: inline;
+    float: left;
+}
+li a
+{
+    display: inline;
+    color:rgb(48, 4, 4);
+    overflow: hidden;
+    text-align: center;
+    padding: 14px 16px;
+    list-style-type: none;
+    text-decoration: none;
+}
+li a:hover
+{
+    background-color: rgba(120, 87, 61, 0.756);
+} 
+hr
+{
+    margin: 20px;
+    position: relative;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+body
+{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "nunito", sans-serif ;
+    background-color: rgb(255, 242, 213);    
+}
+img
+{
+    border-radius: 8px;
+}
+div #hero 
+{
+    background-color: beige;
+    height: 50px;
+}
+div #about
+{
+    width: 80px;
+}
